@@ -1,0 +1,42 @@
+# === LOG DOSYALARI ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === NODE MODULES ve DERLENEN KODLAR ===
+node_modules/
+dist-ssr/
+*.local
+
+# === ENV DOSYALARI ===
+.env
+.env.*
+frontend/.env
+backend/.env
+frontend/.env.*
+backend/.env.*
+backend/uploads/*
+backend/locales/*.json
+# === EDITOR KLASÖRLERİ ===
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+googleauth.js
+googleGetRefreshToken.js
+
+# === DİĞER GEÇİCİ / DERLEME DOSYALARI ===
+*.tsbuildinfo
+.cache/
+
+uploads/*
